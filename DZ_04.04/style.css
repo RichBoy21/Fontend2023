@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 100;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.description {
+    background-color: rgb(204, 201, 201);
+    margin: 100px;
+    height: 300px;
+    width: 80%;
+    
+}
+
+.section-1 {
+    background-color: #34495E;
+    padding: 21px;
+    border-radius: 20px;
+    margin: 20px;
+   
+}
+.section-2 {
+    background-color: #34495E;
+    padding: 21px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.section-3 {
+    background-color: #34495E;
+    padding: 21px;
+    border-radius: 20px;
+    margin: 20px;
+}
