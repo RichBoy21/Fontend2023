@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  #F5F5F5;
+}
+.form-registration {
+    margin: 150px auto;
+    width: 420px;
+    height:430px;
+    padding: 20px 20px 20px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08), 0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+}
+.btn-close {
+    text-align: right;
+}
+button {
+    color: #1A1A1A;
+    margin-bottom: 5px;
+}
+h2 {
+    margin-bottom: 24px;
+    width: 356px;
+    height: 32px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 28px;
+    color: #000000;
+}
+input[type="email"] {
+    width: 356px;
+    height: 48px;
+    margin-bottom: 8px;
+    padding: 21px 189px 7px 16px;
+    border: 1px solid #FFE44D;
+    border-radius: 12px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    color: #1A1A1A;
+}
+input[type="password"] {
+    width: 356px;
+    height: 48px;
+    margin-bottom: 38px;
+    padding: 14px 283px 14px 16px;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Nunito';
+    color:  #7B8E98;
+}
+p {
+    width: 356px;
+    height: 42px;
+    margin-bottom: 24px;
+    color:  #7B8E98;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.btn-registration {
+    width: 356px;
+    height: 48px;
+    margin-bottom: 8px;
+    background-color:  #FFE44D;
+    border-radius: 55px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Nunito';
+}
+.btn-inter {
+    width: 356px;
+    height: 48px;
+    border: 1px solid  #7B8E98;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Nunito';
+}
