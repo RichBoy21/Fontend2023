@@ -18,7 +18,7 @@
  //При клике на кнопку менять цвет на синий и выводить в консоль обновленный цвет квадрата.
 
 
-// const button = document.querySelector(".btn") 
+// const button1 = document.querySelector(".btn") 
 // const pinkSquare = document.querySelector(".square")
 
 
@@ -33,18 +33,18 @@
 // При клике на кнопку увеличивать высоту и ширину квадрата на 20px.
 
 
-// const button = document.querySelector(".btn")
+// const button2 = document.querySelector(".btn")
 // const increaseSquare = document.querySelector(".square")
 
 // button.addEventListener("click", function () {
 //     increaseSquare.style.height = "170px"
 //     increaseSquare.style.width = "170px"
-//})
+// })
 
-//-----4-----//Создать кнопку и div с классом root. При клике на кнопку в div создается параграф синего цвета.
+// -----4-----//Создать кнопку и div с классом root. При клике на кнопку в div создается параграф синего цвета.
 // Текст параграфа произвольный.
 
-// const button = document.querySelector("#btn")
+// const button3 = document.querySelector("#btn")
 // const root = document.querySelector(".root")
 
 
@@ -57,19 +57,32 @@
 //     root.style.color = "blue"
 // })
 
-//-----5-----//Создать кнопку и div с классом root. При клике на кнопку в div создаются по очереди 
-//параграфы синего и зеленого цветов. Первый цвет синий.
+// -----5-----//Создать кнопку и div с классом root. При клике на кнопку в div создаются по очереди 
+// параграфы синего и зеленого цветов. Первый цвет синий.
 
-const myButton = document.querySelector(".btn")
-const textsRoot = document.querySelector(".root")
 
-myButton.addEventListener("click", function () {
-    textsRoot.innerHTML *= `<div class="root"
-                                <p id="blue">Today is the six hundred and twenty-third day since the show began</p>
-                            </div>`
-    textsRoot.innerHTML *= `<div class="root"
-                                <p id="green">Today is the six hundred and twenty-third day since the show began</p>
-                            </div>`
-    textsRoot.style.color = "blue"
-    textsRoot.style.color = "green"
-})
+    // const myButton = document.querySelector(".btn1");
+    // const textsRoot = document.querySelector(".root1");
+
+    // myButton.addEventListener("click", function () {
+
+    //     if (textsRoot.innerHTML === "") {
+    //         textsRoot.innerHTML += `
+    //                                 <p id="blue">Today is the six hundred and twenty-third day since the show began</p>
+    //                             `;
+    //         const blue = document.querySelector("#blue");
+    //         blue.style.color = "blue";
+    //     }
+    //     else if (blue.style.color === "blue") {
+    //         textsRoot.innerHTML += `
+    //                                 <p id="green">Today is the six hundred and twenty-third day since the show began</p>
+    //                             `;
+    //         const green = document.querySelector("#green");
+    //         green.style.color = "green";
+    //     }
+
+    //     else {  //???
+    //     }
+    // });
+
+

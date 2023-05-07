@@ -1,9 +1,9 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* .btn {
+.btn {
     margin:  30px;
     padding:  10px;
     background-color: burlywood;
@@ -15,22 +15,22 @@
     background-color: red;
     position: absolute;
     left: 30px;
-} */
-/* .btn {
+} 
+.btn4 {
     margin:  30px;
     padding:  10px;
     background-color: burlywood;
-}
-.square {
+} */
+/* .square {
     aspect-ratio: 1;
     width: 200px;
     height: 200px;
     background-color: pink;
     position: absolute;
     left: 30px;
-} */
+} 
 
-/* .btn {
+.btn3 {
     width: 150px;
     height: 150px;
     background-color: burlywood;
@@ -43,20 +43,20 @@
     background-color: pink;
     position: absolute;
     left: 30px;
-    bottom: 400px;
-} */
-/* #btn {
+    bottom: 400px; */
+/* }
+#btn2 {
     width: 150px;
     height: 150px;
     background-color: burlywood;
     margin-left: 30px;
     margin-top: 30px;
-}
-p {
+} */
+/* p {
     font-size: 30px;
     margin: 30px 30px;
-} */
-.btn  {
+}
+.btn1  {
     width: 150px;
     height: 150px;
     background-color: burlywood;
@@ -64,4 +64,4 @@ p {
     margin-top: 30px;
     
 }
-
+ */
